@@ -1,0 +1,23 @@
+.center{
+    width:50%;
+    position: absolute;
+    
+   
+    font-weight: bolder;
+    transform:  translate(50%, 50%);
+
+   
+}
+.view{
+    width:100vw;
+    height: 100vh;
+    /* border: 2px solid red; */
+    margin:50px 0 0 0;
+}
+
+@media(max-width:500px){
+    .center{
+       display: grid;
+       grid-template-rows: auto;
+    }
+}
